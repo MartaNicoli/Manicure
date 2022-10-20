@@ -1,0 +1,163 @@
+/* Es la cabecera con el menú */
+.navbar {
+height: 4rem;
+list-style: none;
+background-color: #be89e3;
+}
+
+/* color del nombre nail studio*/
+.navbar span {
+color: aliceblue;
+}
+
+/* menu con letras blancas sin subrayado*/
+.navbar li a {
+text-decoration: none;/* text-decoration none es sin subrayado*/
+color: aliceblue;
+}
+
+/*hover: cambia de color al posicionar el mouse en el icono*/
+ .redes .redes-sociales:hover{
+background-color:#ffffff;
+}
+
+.redes .redes-sociales{
+display: inline-block;
+height: 30px;
+width: 30px;
+background-color: #FF33F0(45, 42, 42);
+margin:0 1.6rem 1.6rem 0;  
+line-height: 2rem;/*centra el icono de la red social*/
+border-radius: 50%;/* entre mas porcentaje mas redondo el radio*/
+color: #FF33F0;
+transition: all 0.5s ease;
+padding-left: 10 rem;
+}
+
+/* display flex ayuda a colocar las cajas como si fueran celdas de tablas 
+La etiqueta Wrap se emplea para que puedan dividirse */
+.fila{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 1rem;
+}
+
+/*Sección jumbotron*/
+.jumbotron {
+    font-size: 1 rem;
+    color: #8f1b9a;
+    text-transform: text capitalize;/*deja el inicio de las palabras con mayusculas*/
+    margin-bottom: 2 rem;
+    font-weight: 500;
+    position: relative;
+    background-color: #B6B2BD;
+}
+
+.jumbotron {
+    background: url("manicure1.jpg") center center / cover no-repeat;
+}
+
+/*Texto: nunca compartiremos*/
+#emailHelp {
+    font-size: 1 rem;
+    color: #060407;
+    text-transform:text capitalize ;/*deja el inicio de las palabras con mayusculas*/
+    margin-bottom: 2 rem;
+    font-weight: 500;
+    position: relative;
+    
+}
+.jumbotron {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 1rem;
+}
+
+
+/*Primera sección del blog*/
+.contenedor1 {
+   text-align: center;
+}
+.contenedor1 {
+    min-width: 10rem;
+    height: 30rem;
+    padding: 2 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    /*flex-direction: row;*/
+    justify-content: center;
+    align-items: center;
+}
+/*define color de titulos*/
+.contenedor1 h1 {
+    font-size: 1 rem;
+    color: #f584f1;
+    text-transform: capitalize;/*deja el inicio de las palabras con mayusculas*/
+  
+}
+
+/*define color de titulos*/
+.contenedor1  {
+    font-size: 1 rem;
+    color: #f584f1;
+    text-transform: capitalize;/*deja el inicio de las palabras con mayusculas*/
+    margin-bottom: 2 rem;
+    font-weight: 500;
+    position: relative;
+    transition: margin-left;
+    background-color:rgb(206, 210, 213) ;
+}
+
+/*estilos de acordeon*/
+.accordion-item {
+    background-color: #d5b3d1;
+    font-size: 1 rem;
+    color: rgb(218, 222, 227);
+
+}
+
+/*estilos de acordeon*/
+.accordion-button {
+    background-color: #d5b3d1;
+    font-size: 1 rem;
+    color: rgb(218, 225, 230);
+}
+
+/*color de fondo del footer*/
+/* max-width: 30rem; */
+.contenedor {
+    /*background-color:#302c30(50, 49, 49);*/
+    background-color: #302c30;
+    margin: auto;
+    display: flex;
+    height: 10rem;
+}
+
+
+/*define color de titulos en blanco*/
+.footer-col h4 {
+    font-size: 1 rem;
+    color: aliceblue;
+    text-transform: capitalize;/*deja los titulos en mayusculas*/
+    margin-bottom: 2 rem;
+    font-weight: 500;
+    position: relative;
+  
+ 
+}
+
+.footer-col ul li  {
+    List-style: none;
+}
+/* deja los link en color blanco*/
+.footer-col ul li a {
+    text-decoration: none;/* text-decoration none es sin subrayado*/
+    color: aliceblue;/*color del link "*/
+    display: block;
+    transition: all 0.3s ease;/*indicar la cantidad de tiempo en que debe aparecer el color*/
+    background-color: #302c30;
+}
