@@ -103,7 +103,7 @@ La etiqueta Wrap se emplea para que puedan dividirse */
 /*define color de titulos*/
 .contenedor1 h1 {
     font-size: 1 rem;
-    color: #f584f1;
+    color: #ad13a8;
     text-transform: capitalize;/*deja el inicio de las palabras con mayusculas*/
   
 }
@@ -111,7 +111,7 @@ La etiqueta Wrap se emplea para que puedan dividirse */
 /*define color de titulos*/
 .contenedor1  {
     font-size: 1 rem;
-    color: #f584f1;
+    color: #ad13a8;
     text-transform: capitalize;/*deja el inicio de las palabras con mayusculas*/
     margin-bottom: 2 rem;
     font-weight: 500;
