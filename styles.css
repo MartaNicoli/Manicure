@@ -18,7 +18,17 @@ color: aliceblue;
 
 /*hover: cambia de color al posicionar el mouse en el icono*/
  .redes .redes-sociales:hover{
-background-color:#ffffff;
+background-color:#211d1d;
+}
+
+#logoinsta{
+    margin-left: 0.5rem;    
+}
+#logoface{
+    margin-left: 0.5rem;    
+}
+#logotwit{
+    margin-left: 0.5rem;    
 }
 
 .redes .redes-sociales{
@@ -26,9 +36,10 @@ display: inline-block;
 height: 30px;
 width: 30px;
 background-color: #FF33F0(45, 42, 42);
-margin:0 1.6rem 1.6rem 0;  
-line-height: 2rem;/*centra el icono de la red social*/
-border-radius: 50%;/* entre mas porcentaje mas redondo el radio*/
+margin-left: 1rem;/*separación entre iconos*/
+/*margin:0 1.6rem 1.6rem 0;*/
+line-height: 2rem;/*interlineado*/
+border-radius: 60%;/* entre mas porcentaje mas redondo el radio*/
 color: #FF33F0;
 transition: all 0.5s ease;
 padding-left: 10 rem;
@@ -127,14 +138,19 @@ La etiqueta Wrap se emplea para que puedan dividirse */
     color: rgb(218, 225, 230);
 }
 
-/*color de fondo del footer*/
+/*color de fondo del jumbotrom*/
 /* max-width: 30rem; */
 .contenedor {
     /*background-color:#302c30(50, 49, 49);*/
-    background-color: #302c30;
+   /* background-color: #302c30;*/
     margin: auto;
     display: flex;
     height: 10rem;
+}
+
+/*footer*/
+.contenedor2 {
+background-color: #302c30;
 }
 
 
@@ -153,11 +169,13 @@ La etiqueta Wrap se emplea para que puedan dividirse */
 .footer-col ul li  {
     List-style: none;
 }
+
 /* deja los link en color blanco*/
 .footer-col ul li a {
     text-decoration: none;/* text-decoration none es sin subrayado*/
     color: aliceblue;/*color del link "*/
     display: block;
-    transition: all 0.3s ease;/*indicar la cantidad de tiempo en que debe aparecer el color*/
-    background-color: #302c30;
+    transition: all 10s ease;/*indicar la cantidad de tiempo en que debe aparecer el color*/
+    
 }
+
