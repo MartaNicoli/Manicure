@@ -35,12 +35,8 @@ background-color:#211d1d;
 display: inline-block;
 height: 30px;
 width: 30px;
-background-color: #FF33F0(45, 42, 42);
-margin-left: 1rem;/*separación entre iconos*/
-/*margin:0 1.6rem 1.6rem 0;*/
 line-height: 2rem;/*interlineado*/
-border-radius: 60%;/* entre mas porcentaje mas redondo el radio*/
-color: #FF33F0;
+border-radius: 50%;/* entre mas porcentaje mas redondo el radio*/
 transition: all 0.5s ease;
 padding-left: 10 rem;
 }
@@ -54,6 +50,7 @@ La etiqueta Wrap se emplea para que puedan dividirse */
     width: 100%;
     padding: 1rem;
 }
+
 
 /*Sección jumbotron*/
 .jumbotron {
@@ -127,7 +124,7 @@ La etiqueta Wrap se emplea para que puedan dividirse */
 .accordion-item {
     background-color: #d5b3d1;
     font-size: 1 rem;
-    color: rgb(218, 222, 227);
+    color: rgb(54, 54, 55);
 
 }
 
@@ -135,8 +132,21 @@ La etiqueta Wrap se emplea para que puedan dividirse */
 .accordion-button {
     background-color: #d5b3d1;
     font-size: 1 rem;
-    color: rgb(218, 225, 230);
+    color: rgb(54, 54, 55);
 }
+
+#pregunta1{
+background-color: #d5b3d1;
+}
+
+#pregunta2{
+    background-color: #d5b3d1;
+}
+
+#pregunta3{
+        background-color: #d5b3d1;
+}
+
 
 /*color de fondo del jumbotrom*/
 /* max-width: 30rem; */
@@ -179,3 +189,29 @@ background-color: #302c30;
     
 }
 
+/*hover: cambia de color al posicionar el mouse en el icono*/
+.footer-col .redsocial:hover{
+    background-color:#f5e6e6;
+    }
+    
+    #instagram{
+        margin-left: 0.5rem;    
+    }
+    #twitter{
+        margin-left: 0.5rem;    
+    }
+    #facebook{
+        margin-left: 0.5rem;    
+    }
+    
+    .redsocial {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin:0 1.6rem 1.6rem 0;
+    line-height: 2rem;/*interlineado*/
+    border-radius: 60%;/* entre mas porcentaje mas redondo el radio*/
+    transition: all 0.5s ease;
+    padding-left: 10 rem;
+    }
+    
